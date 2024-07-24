@@ -1,0 +1,335 @@
+body {
+    font-family: "Ubuntu", sans-serif;
+    background-image: url(../imagens/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #FFFAF0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background: rgba(138, 88, 62, 0.8);
+    padding: 10px;
+    position: fixed;
+    top: 0px;
+    left: 4rem;
+    right: 4rem;
+    width: calc(100% - 40px);
+    max-width: 1200px;
+    z-index: 1;
+    border-radius: 15px;
+    box-shadow: 5px 10px 8px rgba(0, 0, 0, 0.2);
+}
+
+header img {
+    height: 3rem;
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+}
+
+header ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+header ul li a:hover {
+    text-decoration: none;
+    margin: 3px;
+    background-color: #002238;
+}
+
+.container {
+    padding-top: 170px;
+    border-radius: 15px;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.container img {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 5px 15px 5px rgba(0, 0, 0, 0.2);
+}
+
+#desc {
+    padding-top: 80px;
+}
+
+.container p {
+    margin-top: 20px;
+    background-color: #002238;
+    font-size: larger;
+    padding: 15px;
+    border-radius: 5px;
+    color: #B4D2D9;
+}
+
+em {
+    background-color: rgba(131, 131, 131, 0.4);
+}
+
+table {
+    width: 100%;
+    margin-bottom: 50px;
+    table-layout: fixed;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+#butterfly {
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#damn {
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+#morale {
+    font-family: "Over the Rainbow", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#infobutterfly p, #butterfly {
+    background-color: rgba(240, 255, 255, 0.2);
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent;
+    border-radius: 15px;
+}
+
+#infodamn p, #damn {
+    background-color: rgba(255, 0, 0, 0.2);
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent;
+    border-radius: 15px;
+}
+
+#infomorale p, #morale {
+    background-color: rgba(150, 75, 0, 0.2);
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent;
+    border-radius: 15px;
+}
+
+#butterfly, #damn, #morale {
+    border-radius: 5px;
+    font-size: 3rem;
+}
+
+#imgbutterfly {
+    background-image: url(../imagens/butterfly_cover.png);
+}
+
+#imgalright {
+    background-image: url(../imagens/alright_capa.jpg);
+}
+
+#imgkingkuta {
+    background-image: url(../imagens/kingkunta_capa.jpg);
+}
+
+#imgdamn {
+    background-image: url(../imagens/damn_cover.jpg);
+}
+
+#imghumble {
+    background-image: url(../imagens/humble_capa.jpg);
+}
+
+#imgpride {
+    background-image: url(../imagens/pride_capa.jpg);
+}
+
+#imgmorale {
+    background-image: url(../imagens/morale_cover.jpg);
+}
+
+#imgn95 {
+    background-image: url(../imagens/n95_capa.jpg);
+}
+
+#imgfathertime {
+    background-image: url(../imagens/fathertime_capa.jpg);
+}
+
+.youtube {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: cover;
+    background-position: center;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: #F20505;
+    border-width: 5px;
+}
+
+.youtube-play-icon img, .spotify-icon img  {
+    width: 80px;
+    height: 77px;
+    margin: 120px;
+}
+
+.spotify {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: cover;
+    background-position: center;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: #18D860;
+    border-width: 5px;
+}
+
+.consideracoes {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #FFFAF0;
+    padding: 20px;
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#botao_flutuante {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#botao_flutuante form {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 50px;
+    padding: 10px;
+}
+
+#botao_flutuante button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+#botao_flutuante button img {
+    width: 40px;
+    height: 40px;
+}
+
+@media (max-width: 768px) {
+    
+    header {
+        height: 100px;
+        display: flex;
+        left: 10px;
+        max-width: 100%;
+        align-items: center;
+    }
+
+    header img {
+        height: 2.5rem;
+    }
+
+    header ul {
+        margin: 10px 0;
+        padding: 0;
+        display: block;
+    }
+
+    header ul li {
+        display: block;
+        line-height: 23px;
+    }
+
+    header ul li a {
+        font-size: 16px;
+        margin: 5px;
+    }
+
+    header ul li a:hover {
+        text-decoration: none;
+        padding: 1px;
+        background-color: #002238;
+    }
+
+    .container {
+        padding-top: 100px;
+        max-width: 100%;
+        margin: 10px auto;
+    }
+
+    .container img {
+        margin-top: 50px;
+        width: 95%;
+        height: auto;
+    }
+
+    #desc {
+        padding-top: 40px;
+    }
+
+    #butterfly, #damn, #morale {
+        font-size: 2rem;
+    }
+
+    .container p {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    table {
+        width: 100%;
+        margin: 0;
+        border-collapse: collapse;
+        align-items: center;
+    }
+
+    table tr {
+        display: block;
+        margin: 20px;
+    }
+
+    table td {
+        display: block;
+        width: 100%;
+    }
+
+    table td img {
+        width: 100%;
+        height: auto;
+    }
+
+    .youtube, .spotify {
+        background-size: cover;
+    }
+
+    .youtube-play-icon img, .spotify-icon img {
+        width: 50px;
+        height: 45px;
+    }
+
+    .consideracoes {
+        font-size: 14px;
+    }
+}

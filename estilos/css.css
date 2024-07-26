@@ -1,4 +1,4 @@
-body {
+erbody {
     font-family: "Ubuntu", sans-serif;
     font-size: large;
     background-image: url(../imagens/background.png);
@@ -11,7 +11,7 @@ body {
     text-align: center;
 }
 
-nav {
+header {
     background: rgba(138, 88, 62, 0.9);
     padding: 10px;
     position: fixed;
@@ -26,22 +26,22 @@ nav {
     box-shadow: 5px 10px 8px rgba(0, 0, 0, 0.2);
 }
 
-nav img {
+header img {
     height: 4rem;
 }
 
-nav ul {
+header ul {
     list-style: none;
     padding: 0;
     margin: 10px 0 0 0;
 }
 
-nav ul li {
+header ul li {
     display: inline;
     margin: 0 10px;
 }
 
-nav ul li a {
+header ul li a {
     color: white;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
@@ -50,7 +50,7 @@ nav ul li a {
     transition: background-color 0.3s, color 0.3s;
 }
 
-nav ul li a:hover {
+header ul li a:hover {
     text-decoration: none;
     margin: 3px;
     background-color: #002238;
@@ -241,7 +241,7 @@ table {
 
 @media (max-width: 768px) {
     
-    nav {
+    header {
         height: 100px;
         display: flex;
         left: 10px;
@@ -249,27 +249,27 @@ table {
         align-items: center;
     }
 
-    nav img {
+    header img {
         height: 2.5rem;
     }
 
-    nav ul {
+    header ul {
         margin: 10px 0;
         padding: 0;
         display: block;
     }
 
-    nav ul li {
+    header ul li {
         display: block;
         line-height: 23px;
     }
 
-    nav ul li a {
+    header ul li a {
         font-size: 16px;
         margin: 5px;
     }
 
-    nav ul li a:hover {
+    header ul li a:hover {
         text-decoration: none;
         padding: 1px;
         background-color: #002238;

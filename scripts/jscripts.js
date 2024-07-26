@@ -1,6 +1,6 @@
 // Declarações de variáveis
-const nav = document.querySelector('nav')
-const anchors = document.querySelectorAll('nav ul li a')
+const header = document.querySelector('header')
+const anchors = document.querySelectorAll('header ul li a')
 const links = document.querySelectorAll('td a')
 const tds = document.querySelectorAll('td')
 const icon = document.querySelectorAll('div.youtube-play-icon img')
@@ -31,18 +31,18 @@ const urlSpotify = [
 
 // Eventos
 objBotao.addEventListener('click', funMudaPlataforma)
-window.addEventListener('load', ajustarScrollParaNavFixa);
+window.addEventListener('load', ajustarScrollParaheaderFixa);
 
 // Declarações de funções
-function ajustarScrollParaNavFixa() {
+function ajustarScrollParaheaderFixa() {
     anchors.forEach(anchor => {
         anchor.addEventListener('click', function(e) {
             e.preventDefault();
 
             const target = document.querySelector(this.getAttribute('href'));
 
-            const navHeight = nav.offsetHeight;
-            const offsetTop = target.getBoundingClientRect().top + window.pageYOffset - navHeight;
+            const headerHeight = header.offsetHeight;
+            const offsetTop = target.getBoundingClientRect().top + window.pageYOffset - headerHeight;
 
             window.scrollTo({
                 top: offsetTop,

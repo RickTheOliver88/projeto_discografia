@@ -11,7 +11,7 @@ body {
     text-align: center;
 }
 
-header {
+nav {
     background: rgba(138, 88, 62, 0.9);
     padding: 10px;
     position: fixed;
@@ -26,22 +26,22 @@ header {
     box-shadow: 5px 10px 8px rgba(0, 0, 0, 0.2);
 }
 
-header img {
+nav img {
     height: 4rem;
 }
 
-header ul {
+nav ul {
     list-style: none;
     padding: 0;
     margin: 10px 0 0 0;
 }
 
-header ul li {
+nav ul li {
     display: inline;
     margin: 0 10px;
 }
 
-header ul li a {
+nav ul li a {
     color: white;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
@@ -50,7 +50,7 @@ header ul li a {
     transition: background-color 0.3s, color 0.3s;
 }
 
-header ul li a:hover {
+nav ul li a:hover {
     text-decoration: none;
     margin: 3px;
     background-color: #002238;
@@ -241,7 +241,7 @@ table {
 
 @media (max-width: 768px) {
     
-    header {
+    nav {
         height: 100px;
         display: flex;
         left: 10px;
@@ -249,27 +249,27 @@ table {
         align-items: center;
     }
 
-    header img {
+    nav img {
         height: 2.5rem;
     }
 
-    header ul {
+    nav ul {
         margin: 10px 0;
         padding: 0;
         display: block;
     }
 
-    header ul li {
+    nav ul li {
         display: block;
         line-height: 23px;
     }
 
-    header ul li a {
+    nav ul li a {
         font-size: 16px;
         margin: 5px;
     }
 
-    header ul li a:hover {
+    nav ul li a:hover {
         text-decoration: none;
         padding: 1px;
         background-color: #002238;

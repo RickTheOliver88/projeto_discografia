@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "Ubuntu", sans-serif;
     font-size: large;
@@ -65,19 +69,20 @@ header ul li a:hover {
 
 .container img {
     width: 100%;
+    height: auto;
     border-radius: 15px;
     box-shadow: 5px 15px 5px rgba(0, 0, 0, 0.2);
 }
 
 #desc {
-    padding-top: 80px;
+    padding-top: 120px;
 }
 
 .container p {
     margin-top: 20px;
     background-color: #002238;
-    font-size: larger;
-    padding: 15px;
+    font-size: 2rem;
+    padding: 35px;
     border-radius: 5px;
     color: #B4D2D9;
 }
@@ -94,6 +99,7 @@ table {
 }
 
 #butterfly {
+    padding-top: 120px;
     font-family: "Caveat", cursive;
     font-optical-sizing: auto;
     font-weight: 700;
@@ -101,18 +107,20 @@ table {
 }
 
 #damn {
+    padding-top: 120px;
     font-family:'Times New Roman', Times, serif;
     font-weight: 500;
     font-style: normal;
 }
 
 #morale {
-    font-family: "Over the Rainbow", cursive;
-  font-weight: 400;
-  font-style: normal;
+    padding-top: 120px;
+    font-family: "Over the Rainbow, cursive";
+    font-weight: 400;
+    font-style: normal;
 }
 
-#infobutterfly p, #butterfly {
+#infobutterfly p {
     background-color: rgba(240, 255, 255, 0.2);
     border-width: 10px;
     border-style: solid;
@@ -120,7 +128,7 @@ table {
     border-radius: 15px;
 }
 
-#infodamn p, #damn {
+#infodamn p {
     background-color: rgba(255, 0, 0, 0.2);
     border-width: 10px;
     border-style: solid;
@@ -128,7 +136,7 @@ table {
     border-radius: 15px;
 }
 
-#infomorale p, #morale {
+#infomorale p {
     background-color: rgba(150, 75, 0, 0.2);
     border-width: 10px;
     border-style: solid;
@@ -138,7 +146,7 @@ table {
 
 #butterfly, #damn, #morale {
     border-radius: 5px;
-    font-size: 3rem;
+    font-size: 3.5rem;
 }
 
 #imgbutterfly {
@@ -186,12 +194,13 @@ table {
     border-style: solid;
     border-color: #F20505;
     border-width: 5px;
+    transition: 0.2s ease-in-out;
 }
 
 .youtube-play-icon img, .spotify-icon img  {
     width: 80px;
     height: 77px;
-    margin: 120px;
+    margin: 150px;
 }
 
 .spotify {
@@ -203,6 +212,7 @@ table {
     border-style: solid;
     border-color: #18D860;
     border-width: 5px;
+    transition: 0.2s ease-in-out;
 }
 
 .consideracoes {

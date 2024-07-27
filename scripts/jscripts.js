@@ -31,26 +31,7 @@ const urlSpotify = [
 
 // Eventos
 objBotao.addEventListener('click', funMudaPlataforma)
-window.addEventListener('load', ajustarScrollParaheaderFixa);
 
-// Declarações de funções
-function ajustarScrollParaheaderFixa() {
-    anchors.forEach(anchor => {
-        anchor.addEventListener('click', function(e) {
-            e.preventDefault();
-
-            const target = document.querySelector(this.getAttribute('href'));
-
-            const headerHeight = header.offsetHeight;
-            const offsetTop = target.getBoundingClientRect().top + window.pageYOffset - headerHeight;
-
-            window.scrollTo({
-                top: offsetTop,
-                behavior: 'smooth'
-            });
-        });
-    });
-}
 
 function funMudaPlataforma(event) {
     event.preventDefault()
